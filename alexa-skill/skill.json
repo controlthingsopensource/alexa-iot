@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:559965677237:function:137d78e9-cc7e-4809-a49d-89b0b9923cc8:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:559965677237:function:137d78e9-cc7e-4809-a49d-89b0b9923cc8:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:559965677237:function:137d78e9-cc7e-4809-a49d-89b0b9923cc8:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:559965677237:function:137d78e9-cc7e-4809-a49d-89b0b9923cc8:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "IoT API"
+        }
+      }
+    }
+  }
+}
